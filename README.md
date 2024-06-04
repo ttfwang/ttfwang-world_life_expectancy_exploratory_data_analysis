@@ -63,6 +63,11 @@ This project demonstrates the use of MySQL for data cleaning and exploratory dat
 2. Run the `data_cleaning.sql` script to clean the data.
 3. Execute the `exploratory_analysis.sql` script to perform exploratory data analysis.
 
+## Acknowledgment
+
+This project is a part of the data analytics lesson offered by [Analyst Builder](https://www.analystbuilder.com/courses/mysql-for-data-analytics/lesson/world-life-expectancy-exploratory-data-analysis).
+
+
 ## Author
 
 Tengfei Wang
