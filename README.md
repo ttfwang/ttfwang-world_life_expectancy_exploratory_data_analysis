@@ -2,6 +2,8 @@
 
 ## Project Overview
 
+This practice project is a part of the data analytics lesson offered by [Analyst Builder](https://www.analystbuilder.com/courses/mysql-for-data-analytics/lesson/world-life-expectancy-exploratory-data-analysis). 
+
 This project focuses on analyzing real-world life expectancy data using MySQL. The primary objective is to clean the dataset and explore various factors affecting life expectancy across different countries over the past 15 years. The project is divided into two main stages: data cleaning and exploratory data analysis (EDA).
 
 ## Objectives
