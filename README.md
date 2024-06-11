@@ -24,17 +24,17 @@ The data used in this project is sourced from a publicly available dataset conta
 
 ## Data Cleaning Process
 
-1. **Inspect the Data:** Initial exploration of the dataset.
-2. **Identify and Remove Duplicates:** Locate and delete duplicate records.
-3. **Handle Missing Values:** Identify missing data and fill gaps appropriately.
-4. **Standardize Data:** Ensure consistency in data formatting.
+1. **Inspect the Data:** Used `SELECT` statements to explore the initial dataset.
+2. **Identify and Remove Duplicates:** Employed `GROUP BY` and `HAVING` clauses to find duplicates, and `ROW_NUMBER()` window function with `PARTITION BY` to identify and remove them.
+3. **Handle Missing Values:** Utilized `UPDATE` statements with `JOIN` to fill in missing values based on specific conditions.
+4. **Standardize Data:** Applied `UPDATE` statements to correct errors and ensure consistency in data formatting.
 
 ## Exploratory Data Analysis
 
-1. **Life Expectancy Trends:** Analyze minimum, maximum, and average life expectancy by country and year.
-2. **GDP Correlation:** Examine the relationship between GDP and life expectancy.
-3. **Status Correlation:** Compare life expectancy between developed and developing countries.
-4. **BMI Analysis:** Investigate the correlation between BMI and life expectancy.
+1. **Life Expectancy Trends:** Analyzed minimum, maximum, and average life expectancy by country and year using `MIN`, `MAX`, `AVG`, `GROUP BY`, and `HAVING` clauses.
+2. **GDP Correlation:** Examined the relationship between GDP and life expectancy using `INNER JOIN` and `GROUP BY` statements.
+3. **Status Correlation:** Compared life expectancy between developed and developing countries using `GROUP BY` and `AVG` clauses.
+4. **BMI Analysis:** Investigated the correlation between BMI and life expectancy using `AVG`, `GROUP BY`, and `ORDER BY` clauses.
 
 ## Challenges and Insights
 
